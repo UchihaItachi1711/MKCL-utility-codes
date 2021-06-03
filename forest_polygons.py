@@ -14,7 +14,7 @@ from shapely.geometry import shape
 
 
 
-db=mc.connect(host= "10.15.20.100",database="MAHAVAN_FOREST", user= "digvijayp" , passwd= "Digv1j@yP##")
+db=mc.connect(host= "0.0.00.00",database="dbname", user= "username" , passwd= "psswd")
 
 #query data
 
