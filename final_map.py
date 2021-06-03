@@ -12,7 +12,7 @@ from math import cos, asin, sqrt, pi
 import math
 
 
-db=mc.connect(host= "10.15.20.100",database="MAHAVAN_GIS_PROD", user= "digvijayp" , passwd= "Digv1j@yP##")
+db=mc.connect(host= "00.00.000.000",database="dbname", user= "username" , passwd= "password")
 
 cursor = db.cursor()
 query="SELECT ST_AsGeoJSON((g.gisdata)) AS dt FROM gisrecords g WHERE g.`applicationId` IN ('NI47409600015')"
